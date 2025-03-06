@@ -9,7 +9,9 @@ GLMAE (Global Local Masked Autoencoder) is a self-supervised learning framework 
 ## Install Dependencies
 To run this project, first install all the necessary dependencies. You can install them using the following command:
 
+```
   pip install -r requirements.txt
+```
 
 ## Download Pretrained Model
 You need to download the pretrained model file vit-t-classifier-from_scratch_gl.pt via the Baidu Cloud Drive link below:
@@ -31,5 +33,9 @@ We compare the performance of the $\phi$-GLMAE model with several state-of-the-a
 
 ![image](https://github.com/user-attachments/assets/8c31ac7e-2a7e-4d05-b5db-32054065b101)
 
+## Running Tests
+After completing the environment setup, data preparation, and downloading the pretrained model, you can run the test script to evaluate the model's performance using the following command:
 
-
+```
+gl_mae_classifier_test.py
+```
