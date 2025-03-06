@@ -37,5 +37,5 @@ We compare the performance of the $\phi$-GLMAE model with several state-of-the-a
 After completing the environment setup, data preparation, and downloading the pretrained model, you can run the test script to evaluate the model's performance using the following command:
 
 ```
-gl_mae_classifier_test.py
+python gl_mae_classifier_test.py
 ```
